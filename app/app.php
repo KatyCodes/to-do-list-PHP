@@ -8,9 +8,10 @@
       $_SESSION['list_of_tasks'] = array();
     }
 
+//notifys Silex exists
     $app = new Silex\Application();
 
-//notifying project twig exists
+//notifying twig exists
     $app->register(new Silex\Provider\TwigServiceProvider(), array (
       'twig.path' => __DIR__.'/../views'
     ));
@@ -22,6 +23,7 @@
     });
 
 //Appends user input from form into /tasks page
+//$_POST['this is where form info is pulled by it's name]
     $app->post("/tasks", function() use ($app) {
       $task = new Task($_POST['description']);
       $task->save();
