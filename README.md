@@ -33,4 +33,4 @@ For questions, concerns, or suggestions please email katyannhenning@gmail.com
 * This software is licensed under the MIT license.
 
 
-Copyright (c) 2016 Copyright _[Katy Henning](https://katycodes.github.io/portfolio)_ and Jena SansCartier All Rights Reserved.
+Copyright (c) 2016 Copyright _[Katy Henning](https://katycodes.github.io/portfolio)_  All Rights Reserved.
